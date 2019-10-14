@@ -32,8 +32,8 @@ The longest event is scsmbstgrc (1491377495218 - 1491377495210 = 8ms)
 Steps for Running:
 
 1. perform "mvn clean install".
-2. After creating jar run
-             "java -jar log-event-generator.jar ${program arguments for log files}".
+2. After creating jar run this file with program line arguments.
+             "java -jar eventgenerator-0.0.1-SNAPSHOT.jar ${program arguments for log files}".
              eg: "java -jar eventgenerator-0.0.1-SNAPSHOT.jar F:\\logback.txt"
 3. After successful start on localhost open the browser or rest services client and\
           open "localhost:8080/api/events" to get list of all logs with event duration.\
