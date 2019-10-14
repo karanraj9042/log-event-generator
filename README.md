@@ -33,8 +33,8 @@ Steps for Running:
 1. perform "mvn clean install".
 2. After creating jar log-event-generator.jar run on "java -jar log-event-generator.jar ${program arguments for log files}".
              eg: "java -jar eventgenerator-0.0.1-SNAPSHOT.jar F:\\logback.txt"
-3. After successful start on localhost open the browser or rest services client and 
-          open "localhost:8080/api/events" to get list of all logs with event duration.
+3. After successful start on localhost open the browser or rest services client and\
+          open "localhost:8080/api/events" to get list of all logs with event duration.\
           open "localhost:8080/api/events/largerevents" for get largest events in the above input logs.
 
 
